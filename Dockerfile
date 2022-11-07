@@ -1,7 +1,7 @@
 FROM gui-app:latest
 
 
-ARG NVIDIA_DRIVER_VERSION="${NVIDIA_DRIVER_VERSION:-'470.63.01'}"
+ARG NVIDIA_DRIVER_VERSION="${NVIDIA_DRIVER_VERSION:-'470.141.03'}"
 
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update && apt-get install -y --no-install-recommends \
